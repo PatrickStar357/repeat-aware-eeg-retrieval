@@ -1,0 +1,10 @@
+{
+  "pdf": "figures/zh/fig05_matched_geometry.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 6.4,
+  "text_run_count": 154,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

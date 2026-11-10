@@ -1,0 +1,184 @@
+{
+  "archive_size": 1177368548,
+  "official_archive_metadata": {
+    "id": "670d66e48092b2004c2ecbfe",
+    "type": "files",
+    "attributes": {
+      "guid": "wb36u",
+      "checkout": null,
+      "name": "images_THINGSplus-CC0.zip",
+      "kind": "file",
+      "path": "/670d66e48092b2004c2ecbfe",
+      "size": 1177368548,
+      "provider": "osfstorage",
+      "materialized_path": "/images_THINGSplus-CC0.zip",
+      "last_touched": null,
+      "date_modified": "2024-10-14T18:45:56.967704",
+      "date_created": "2024-10-14T18:45:56.967704Z",
+      "extra": {
+        "hashes": {
+          "md5": "ee1dc1f47e48cec407abec70283ab4ce",
+          "sha256": "ed86912f6848ac5cf8b405a727f875295cc081cdd64271e80ae4d607b7d447e3"
+        },
+        "downloads": 2840
+      },
+      "tags": [],
+      "current_user_can_comment": false,
+      "current_version": 1,
+      "show_as_unviewed": false
+    },
+    "relationships": {
+      "parent_folder": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/5ccb0e224d0d09001abd00eb/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "5ccb0e224d0d09001abd00eb",
+          "type": "files"
+        }
+      },
+      "versions": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/670d66e48092b2004c2ecbfe/versions/",
+            "meta": {}
+          }
+        }
+      },
+      "comments": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/jum2f/comments/?filter%5Btarget%5D=wb36u",
+            "meta": {}
+          }
+        }
+      },
+      "node": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/jum2f/",
+            "meta": {}
+          }
+        },
+        "data": {
+          "id": "jum2f",
+          "type": "nodes"
+        }
+      },
+      "target": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/nodes/jum2f/",
+            "meta": {
+              "type": "nodes"
+            }
+          }
+        },
+        "data": {
+          "type": "nodes",
+          "id": "jum2f"
+        }
+      },
+      "cedar_metadata_records": {
+        "links": {
+          "related": {
+            "href": "https://api.osf.io/v2/files/670d66e48092b2004c2ecbfe/cedar_metadata_records/",
+            "meta": {}
+          }
+        }
+      }
+    },
+    "links": {
+      "info": "https://api.osf.io/v2/files/670d66e48092b2004c2ecbfe/",
+      "move": "https://files.osf.io/v1/resources/jum2f/providers/osfstorage/670d66e48092b2004c2ecbfe",
+      "upload": "https://files.osf.io/v1/resources/jum2f/providers/osfstorage/670d66e48092b2004c2ecbfe",
+      "delete": "https://files.osf.io/v1/resources/jum2f/providers/osfstorage/670d66e48092b2004c2ecbfe",
+      "download": "https://osf.io/download/wb36u/",
+      "render": "https://mfr.osf.io/render?url=https%3A%2F%2Fosf.io%2Fdownload%2Fwb36u%2F%3Fdirect%26mode%3Drender",
+      "html": "https://osf.io/jum2f/files/osfstorage/670d66e48092b2004c2ecbfe",
+      "self": "https://api.osf.io/v2/files/670d66e48092b2004c2ecbfe/",
+      "iri": "https://osf.io/wb36u"
+    }
+  },
+  "transfer_sources": [
+    "https://huggingface.co/datasets/poojasingh11/THINGS-images/resolve/main/images_THINGSplus-CC0.zip",
+    "https://osf.io/download/wb36u/"
+  ],
+  "images": [
+    {
+      "file": "barrette.jpg",
+      "archive_member": "object_images_CC0/barrette.jpg",
+      "bytes": 483127,
+      "sha256": "e48f33646866c14ee3d92c2a7f039f10edfb9a92b94e72d0c760145054198c0e",
+      "zip_crc32": "a5e612b5",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    },
+    {
+      "file": "screw.jpg",
+      "archive_member": "object_images_CC0/screw.jpg",
+      "bytes": 956690,
+      "sha256": "2388b453fc672c1aa7ef482881d52439738cffce4c6581d147f7a48414389445",
+      "zip_crc32": "186d07ca",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    },
+    {
+      "file": "velcro.jpg",
+      "archive_member": "object_images_CC0/velcro.jpg",
+      "bytes": 535510,
+      "sha256": "074c02bf5432f355c1a5c4e80089f1ab03ff1e75c8356cfde91bfab0e5d3423c",
+      "zip_crc32": "e2c45367",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    },
+    {
+      "file": "nail.jpg",
+      "archive_member": "object_images_CC0/nail.jpg",
+      "bytes": 770568,
+      "sha256": "47dcdd18cbc992282d1879aa5accb25bde76dae0ff1a82b0d36dce18d70cbcdb",
+      "zip_crc32": "fbe9a617",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    },
+    {
+      "file": "combination_lock.jpg",
+      "archive_member": "object_images_CC0/combination_lock.jpg",
+      "bytes": 817392,
+      "sha256": "b0571be0ff88a2b36071a91e8b839cc46152b5dce6e6450692b7c6f3a8ea78b8",
+      "zip_crc32": "22bee480",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    },
+    {
+      "file": "zipper.jpg",
+      "archive_member": "object_images_CC0/zipper.jpg",
+      "bytes": 1177041,
+      "sha256": "96c2e68e4da1f50ed58b2aeffe5f6f0548afcc6a52af322baff89e4eed53b4f3",
+      "zip_crc32": "900a9d1b",
+      "primary_archive": "https://osf.io/download/wb36u/",
+      "license": "THINGSplus CC0/public-domain alternative image set",
+      "official_description": "https://things-initiative.org/",
+      "paper": "https://doi.org/10.3758/s13428-023-02110-8",
+      "use": "Illustration of concept only; not substituted for an experimental stimulus or prediction."
+    }
+  ]
+}

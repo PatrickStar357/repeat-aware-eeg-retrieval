@@ -1,0 +1,541 @@
+{
+  "frozen_prediction_files": 180,
+  "aggregate_metrics_checked": 66,
+  "max_absolute_error": 0.0,
+  "six_case_ranks_for_main_pair": "passed",
+  "units": "Three seeds averaged within each of ten participants",
+  "summary_sha256": "0a8f8311c3f31e9c35e098fd640bf72fc9d0a6a3e3c0eb1d65237bda1959be75",
+  "errors": [],
+  "rows": [
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "top1",
+      "recomputed": 0.3897166666666667,
+      "recorded": 0.3897166666666667,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "top5",
+      "recomputed": 0.8674666666666667,
+      "recorded": 0.8674666666666667,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "map",
+      "recomputed": 0.584377466931217,
+      "recorded": 0.584377466931217,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "brier",
+      "recomputed": 0.7339392750511675,
+      "recorded": 0.7339392750511675,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "nll",
+      "recomputed": 1.6861458642683964,
+      "recorded": 1.6861458642683964,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "aurc",
+      "recomputed": 0.43853915378853614,
+      "recorded": 0.43853915378853614,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "ece15",
+      "recomputed": 0.027636443088974106,
+      "recorded": 0.027636443088974106,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "wrong_confidence",
+      "recomputed": 0.33754993729031063,
+      "recorded": 0.33754993729031063,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "risk_at_25",
+      "recomputed": 0.3632666666666666,
+      "recorded": 0.3632666666666666,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "risk_at_50",
+      "recomputed": 0.48283333333333334,
+      "recorded": 0.48283333333333334,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "ours",
+      "metric": "risk_at_75",
+      "recomputed": 0.5529333333333334,
+      "recorded": 0.5529333333333334,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "top1",
+      "recomputed": 0.3807666666666667,
+      "recorded": 0.3807666666666667,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "top5",
+      "recomputed": 0.8534833333333334,
+      "recorded": 0.8534833333333334,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "map",
+      "recomputed": 0.5743371428571429,
+      "recorded": 0.5743371428571429,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "brier",
+      "recomputed": 0.7475890681338233,
+      "recorded": 0.7475890681338233,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "nll",
+      "recomputed": 1.7386116704121775,
+      "recorded": 1.7386116704121775,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "aurc",
+      "recomputed": 0.45601110800413763,
+      "recorded": 0.45601110800413763,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "ece15",
+      "recomputed": 0.03081499969769953,
+      "recorded": 0.03081499969769953,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "wrong_confidence",
+      "recomputed": 0.31978811405243274,
+      "recorded": 0.31978811405243274,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "risk_at_25",
+      "recomputed": 0.3801333333333333,
+      "recorded": 0.3801333333333333,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "risk_at_50",
+      "recomputed": 0.4965333333333334,
+      "recorded": 0.4965333333333334,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "within10",
+      "model": "anchor_nll",
+      "metric": "risk_at_75",
+      "recomputed": 0.5650222222222222,
+      "recorded": 0.5650222222222222,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "top1",
+      "recomputed": 0.6971833333333333,
+      "recorded": 0.6971833333333333,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "top5",
+      "recomputed": 0.9836833333333332,
+      "recorded": 0.9836833333333332,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "map",
+      "recomputed": 0.8183311507936507,
+      "recorded": 0.8183311507936507,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "brier",
+      "recomputed": 0.4126192378645765,
+      "recorded": 0.4126192378645765,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "nll",
+      "recomputed": 0.8377369810098209,
+      "recorded": 0.8377369810098209,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "aurc",
+      "recomputed": 0.13095658211518685,
+      "recorded": 0.13095658211518685,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "ece15",
+      "recomputed": 0.024475769989400768,
+      "recorded": 0.024475769989400768,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "wrong_confidence",
+      "recomputed": 0.5567340152152606,
+      "recorded": 0.5567340152152606,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "risk_at_25",
+      "recomputed": 0.047733333333333336,
+      "recorded": 0.047733333333333336,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "risk_at_50",
+      "recomputed": 0.1217,
+      "recorded": 0.1217,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "ours",
+      "metric": "risk_at_75",
+      "recomputed": 0.20982222222222222,
+      "recorded": 0.20982222222222222,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "top1",
+      "recomputed": 0.6751833333333334,
+      "recorded": 0.6751833333333334,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "top5",
+      "recomputed": 0.9757166666666667,
+      "recorded": 0.9757166666666667,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "map",
+      "recomputed": 0.8019225066137565,
+      "recorded": 0.8019225066137565,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "brier",
+      "recomputed": 0.4412258106262804,
+      "recorded": 0.4412258106262804,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "nll",
+      "recomputed": 0.9163961122251758,
+      "recorded": 0.9163961122251758,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "aurc",
+      "recomputed": 0.14867412452090994,
+      "recorded": 0.14867412452090994,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "ece15",
+      "recomputed": 0.025920509417334932,
+      "recorded": 0.025920509417334932,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "wrong_confidence",
+      "recomputed": 0.5436322306715178,
+      "recorded": 0.5436322306715178,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "risk_at_25",
+      "recomputed": 0.06100000000000001,
+      "recorded": 0.06100000000000001,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "risk_at_50",
+      "recomputed": 0.14279999999999998,
+      "recorded": 0.14279999999999998,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "cross10",
+      "model": "anchor_nll",
+      "metric": "risk_at_75",
+      "recomputed": 0.23315555555555556,
+      "recorded": 0.23315555555555556,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "top1",
+      "recomputed": 0.17816666666666667,
+      "recorded": 0.17816666666666667,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "top5",
+      "recomputed": 0.445,
+      "recorded": 0.445,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "map",
+      "recomputed": 0.3116767590431091,
+      "recorded": 0.3116767590431091,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "brier",
+      "recomputed": 0.920445213287777,
+      "recorded": 0.920445213287777,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "nll",
+      "recomputed": 3.4881868493357033,
+      "recorded": 3.4881868493357033,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "aurc",
+      "recomputed": 0.703533508014188,
+      "recorded": 0.703533508014188,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "ece15",
+      "recomputed": 0.06241344319967046,
+      "recorded": 0.06241344319967046,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "wrong_confidence",
+      "recomputed": 0.17930512329337686,
+      "recorded": 0.17930512329337686,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "risk_at_25",
+      "recomputed": 0.6606666666666666,
+      "recorded": 0.6606666666666666,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "risk_at_50",
+      "recomputed": 0.742,
+      "recorded": 0.742,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "ours",
+      "metric": "risk_at_75",
+      "recomputed": 0.7893333333333333,
+      "recorded": 0.7893333333333333,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "top1",
+      "recomputed": 0.176,
+      "recorded": 0.176,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "top5",
+      "recomputed": 0.43033333333333335,
+      "recorded": 0.43033333333333335,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "map",
+      "recomputed": 0.30335905900943183,
+      "recorded": 0.30335905900943183,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "brier",
+      "recomputed": 0.9258797019717179,
+      "recorded": 0.9258797019717179,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "nll",
+      "recomputed": 3.588187699615966,
+      "recorded": 3.588187699615966,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "aurc",
+      "recomputed": 0.7077165560159396,
+      "recorded": 0.7077165560159396,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "ece15",
+      "recomputed": 0.05200629447124241,
+      "recorded": 0.05200629447124241,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "wrong_confidence",
+      "recomputed": 0.15530832780902648,
+      "recorded": 0.15530832780902648,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "risk_at_25",
+      "recomputed": 0.6686666666666666,
+      "recorded": 0.6686666666666666,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "risk_at_50",
+      "recomputed": 0.743,
+      "recorded": 0.743,
+      "absolute_error": 0.0
+    },
+    {
+      "task": "official200",
+      "model": "anchor_nll",
+      "metric": "risk_at_75",
+      "recomputed": 0.7899999999999999,
+      "recorded": 0.7899999999999999,
+      "absolute_error": 0.0
+    }
+  ],
+  "status": "passed",
+  "scope": "Reproduction from frozen predictions, not independent retraining or validation of the development protocol."
+}

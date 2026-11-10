@@ -1,0 +1,15 @@
+{
+  "summary_sha256": "0a8f8311c3f31e9c35e098fd640bf72fc9d0a6a3e3c0eb1d65237bda1959be75",
+  "participants": 10,
+  "seeds": [
+    2028,
+    2029,
+    2030
+  ],
+  "averaging": "Seeds within participant; participant is statistical unit",
+  "photographs": "Only THINGSplus-CC0 concept photographs; Figure 6 candidate contents are represented by verified record IDs, not substitute stimulus photos",
+  "schematic_symbols": "Figures 1 and 2 waveform and array glyphs; not measured EEG or model outputs",
+  "case_count": 6,
+  "ranks_unchanged": true,
+  "performance_selection": "All ten participants; all five covariance alternatives; all fixed six cases"
+}

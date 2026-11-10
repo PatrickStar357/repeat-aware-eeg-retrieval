@@ -1,0 +1,7 @@
+# Preserve recorded byte hashes across checkout platforms.
+* -text
+*.npz binary
+*.npy binary
+*.jpg binary
+*.png binary
+*.pdf binary

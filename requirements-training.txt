@@ -1,0 +1,7 @@
+# Libraries referenced by the original implementation/preprocessing sources.
+# This list is not a reconstruction of the original GPU training environment.
+numpy
+scipy
+torch
+einops
+mne

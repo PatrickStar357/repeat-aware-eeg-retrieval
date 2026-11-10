@@ -1,0 +1,214 @@
+{
+  "primary_result_summary_sha256": "0a8f8311c3f31e9c35e098fd640bf72fc9d0a6a3e3c0eb1d65237bda1959be75",
+  "primary_source": "data/results/compact_final_v87/summary.json",
+  "final_method": "hybrid_block_mlp",
+  "tasks": [
+    "within10",
+    "cross10",
+    "official200"
+  ],
+  "configurations": 45,
+  "participants": 10,
+  "seeds": [
+    2028,
+    2029,
+    2030
+  ],
+  "mean_table_rows": 135,
+  "individual_run_rows": 4050,
+  "metric_units": "Ranking, ECE and confidence values in CSVs are fractions; manuscript percentages multiply these by 100.",
+  "copied_code": [
+    {
+      "path": "code/experiments/aggregate_closeout_v67.py",
+      "source": "data/code/experiments/aggregate_closeout_v67.py",
+      "sha256": "713b1baf2795caa2f7a143fc415528aca1abcd20c16329e255c3d1c52e916172"
+    },
+    {
+      "path": "code/experiments/aggregate_compact_v87.py",
+      "source": "data/code/experiments/aggregate_compact_v87.py",
+      "sha256": "316cf952f05b0f033c43cb3946553f501a1e3f162862bdb23aa6d07fa21ddd99"
+    },
+    {
+      "path": "code/experiments/atm_control_v9.py",
+      "source": "data/code/experiments/atm_control_v9.py",
+      "sha256": "c514a90b26c491126c3ede52da0aadfe4ae139b11764f67391cec7f65694fd97"
+    },
+    {
+      "path": "code/experiments/benchmark_cost_v89.py",
+      "source": "data/code/experiments/benchmark_cost_v89.py",
+      "sha256": "93667a7d1075afb5ec83302509b78636746199caa9ad0a0226d309670707c908"
+    },
+    {
+      "path": "code/experiments/closeout_experiments_v64.py",
+      "source": "data/code/experiments/closeout_experiments_v64.py",
+      "sha256": "b6572b48a305cef278554e62be06dc8957d42a07a7c0c0901758e53d45f6e443"
+    },
+    {
+      "path": "code/experiments/compact_diagnostics_v89.py",
+      "source": "data/code/experiments/compact_diagnostics_v89.py",
+      "sha256": "962b296891889394bc70928b79a61aa4ba1dfc1ec360d68dcd4ffe07177b908f"
+    },
+    {
+      "path": "code/experiments/compact_evidence_audit_v86.py",
+      "source": "data/code/experiments/compact_evidence_audit_v86.py",
+      "sha256": "bfac4d845049e332a728b532ab5bd83d3af940ed640d3213df82e9544f787732"
+    },
+    {
+      "path": "code/experiments/compare_noise_controls.py",
+      "source": "data/code/experiments/compare_noise_controls.py",
+      "sha256": "595a01abb3dd8c78df39d029c817ebbb6bd120b1188bfd77a07fbe1e1b6481ba"
+    },
+    {
+      "path": "code/experiments/cross_trial_likelihood_v6.py",
+      "source": "data/code/experiments/cross_trial_likelihood_v6.py",
+      "sha256": "f4d46a329cb547ca0e4e301936c8b5896c00d395bcfc49c8d3dd3541fb7e5763"
+    },
+    {
+      "path": "code/experiments/discriminant_evidence_v40.py",
+      "source": "data/code/experiments/discriminant_evidence_v40.py",
+      "sha256": "85aaefdea5eb4d87bbbf172b780dddc62e8c5c4700be45d2ad3322cb492aff52"
+    },
+    {
+      "path": "code/download_datasets.py",
+      "source": "data/code/download_datasets.py",
+      "sha256": "349e78fc2389325122b826d441da552a316ffcebf00011f5c2d3031494de200c"
+    },
+    {
+      "path": "code/experiments/evaluate_diagnostic_v52.py",
+      "source": "data/code/experiments/evaluate_diagnostic_v52.py",
+      "sha256": "1256f290663e96e4811c5bd7d4b17ff01b1b0cc3a950413ef48b5f9a561fb0dd"
+    },
+    {
+      "path": "code/experiments/evaluation_banks_v62.py",
+      "source": "data/code/experiments/evaluation_banks_v62.py",
+      "sha256": "72278fa81660aa8112387c9c187cf3e9758b8e96062c7703cd74b1cc22423c55"
+    },
+    {
+      "path": "code/experiments/evidence_graph_v48.py",
+      "source": "data/code/experiments/evidence_graph_v48.py",
+      "sha256": "0eafb59e4b23c7cf019b1801e03c15101528ce04011c85acb7f319299bb61a99"
+    },
+    {
+      "path": "code/experiments/final_choice_screen_v75.py",
+      "source": "data/code/experiments/final_choice_screen_v75.py",
+      "sha256": "a5e2df8427c6c9bd85ae11ea04f9ab35cfd812be4b09571a9993838d8c6bcf1d"
+    },
+    {
+      "path": "code/experiments/finalize_hybrid_v76.py",
+      "source": "data/code/experiments/finalize_hybrid_v76.py",
+      "sha256": "20c40830e8b17881c27af62c4016284494314935ddb44864d2e93d54f4528bb2"
+    },
+    {
+      "path": "code/load_visual_features.py",
+      "source": "data/code/load_visual_features.py",
+      "sha256": "5cad1489bcb80ac5ee00e2defadc46b0e930dda90f63e46f3375276aeadab955"
+    },
+    {
+      "path": "code/experiments/metric_suite_v23.py",
+      "source": "data/code/experiments/metric_suite_v23.py",
+      "sha256": "017b934785cfb6bce77f97fb0def3a7d8c7146165ee05032520ec52482c6b78d"
+    },
+    {
+      "path": "code/experiments/metrics.py",
+      "source": "data/code/experiments/metrics.py",
+      "sha256": "53c23057807d33a3ad270b016d66f8eae0a6382f3959a6ef093e27d24cc50de4"
+    },
+    {
+      "path": "code/experiments/native_temporal_screen.py",
+      "source": "data/code/experiments/native_temporal_screen.py",
+      "sha256": "937f851e6f106b2fa3479ff2158c34713b163ce5581194eb6168560e4e2449c0"
+    },
+    {
+      "path": "code/experiments/protocol.py",
+      "source": "data/code/experiments/protocol.py",
+      "sha256": "9120813d3b2c56b062508dfd3d3f5298645d5ad758f2c420f3e2823f75aa6335"
+    },
+    {
+      "path": "code/experiments/reliability_repair_v15.py",
+      "source": "data/code/experiments/reliability_repair_v15.py",
+      "sha256": "9906e0f8d405c94e84192cfa2894c240ca539d67a022b68de5c90b54121fe8b5"
+    },
+    {
+      "path": "code/experiments/reliability_screen.py",
+      "source": "data/code/experiments/reliability_screen.py",
+      "sha256": "454d3567b7909329974b9a9a5df9431854077e11b71b692283419bd03b86d9fa"
+    },
+    {
+      "path": "code/experiments/sattc_adapter_v63.py",
+      "source": "data/code/experiments/sattc_adapter_v63.py",
+      "sha256": "7b5a49ac3c3ead88006642f5d1401552bbe66f4c62c27cb43b42700318558818"
+    },
+    {
+      "path": "code/experiments/score_stacking_v24.py",
+      "source": "data/code/experiments/score_stacking_v24.py",
+      "sha256": "d80ae2b4359021ea8c147bf4c47b9347bfcee48d2c8a541769fc8e5570f42a69"
+    },
+    {
+      "path": "code/experiments/temporal_occlusion_v88.py",
+      "source": "data/code/experiments/temporal_occlusion_v88.py",
+      "sha256": "9adee8b22671d8ef17ccf0c115662708007b396b507ad77368a291a0f9a17d87"
+    },
+    {
+      "path": "code/experiments/train_all_backbones_v42.py",
+      "source": "data/code/experiments/train_all_backbones_v42.py",
+      "sha256": "e1cafc6fd4af64fd3da1fb97f309ea029dd3517f208408f290776dc1fd55d277"
+    },
+    {
+      "path": "code/experiments/train_diagnostic_heads_v51.py",
+      "source": "data/code/experiments/train_diagnostic_heads_v51.py",
+      "sha256": "1f2f15b84e315b466ecdeeb5ecae4c99af09a89e6a962313490826871c2c25dd"
+    },
+    {
+      "path": "code/experiments/train_seed_replication_v61.py",
+      "source": "data/code/experiments/train_seed_replication_v61.py",
+      "sha256": "271a10a7ec5280a096578a39027c43ff3f9aff55b6b20ff604ed3441ca1957e2"
+    },
+    {
+      "path": "code/experiments/validate_foundation.py",
+      "source": "data/code/experiments/validate_foundation.py",
+      "sha256": "4dbf50ee136fb30c71171bab64178faf181186d2db4452b53a7549a0fc1b6035"
+    },
+    {
+      "path": "code/experiments/variance_source_controls_v13.py",
+      "source": "data/code/experiments/variance_source_controls_v13.py",
+      "sha256": "b43b856eab0752376ad7b3f1e332a102287efdaf1de065ae624816a03c2e0e9f"
+    }
+  ],
+  "extra_evidence": [
+    {
+      "file": "results/cost_benchmark_v89.json",
+      "source": "data/results/cost_benchmark_v89/summary.json",
+      "sha256": "23db44dd2158336050fc378dbed11b96e6752a565c7f5651aae4869a01fae1ca"
+    },
+    {
+      "file": "results/compact_diagnostics_v89.json",
+      "source": "data/results/compact_final_v87/diagnostics.json",
+      "sha256": "eecc97b4b5f05294edcf4c4262b7b56982587fabce9f666bc1135c65404114f1"
+    },
+    {
+      "file": "results/temporal_occlusion_v88.json",
+      "source": "data/results/temporal_occlusion_v88/summary.json",
+      "sha256": "4d28f4859cad07b741ac91cc822d3d77bd701d82630422a2afb7769511fd5404"
+    },
+    {
+      "file": "results/category_results_v149.json",
+      "source": "data/code/manuscript/.qa/revision_v149/category_results.json",
+      "sha256": "9e71f3f70f6ac5521c9452b9e27042f6f4c912b60e6230c82b105c559e4557a5"
+    },
+    {
+      "file": "results/qualitative_cases_v151.json",
+      "source": "data/code/manuscript/.qa/cases_v151/qualitative_cases.json",
+      "sha256": "39f5de2bb50c06fe8f6da1651143636b1a5b6b26c00c55962a20decd56f052b4"
+    }
+  ],
+  "not_included": [
+    "raw EEG",
+    "THINGS photographs",
+    "pretrained visual weights",
+    "trained EEG checkpoints",
+    "gallery predictor checkpoints",
+    "large feature banks",
+    "third-party package installations"
+  ],
+  "availability": "Local artifact preparation only. No public URL is claimed."
+}

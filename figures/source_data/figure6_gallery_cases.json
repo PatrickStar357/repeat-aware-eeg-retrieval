@@ -1,0 +1,661 @@
+{
+  "participant": "sub-01",
+  "seed": 2028,
+  "task": "within10",
+  "case_selection": "Same six cases as the frozen v151 log; no re-selection",
+  "gallery_order": "Original candidate order in the frozen prediction files",
+  "cases": [
+    {
+      "panel": "a",
+      "concept": "barrette",
+      "query_index": 131,
+      "query_id": "train/00073_barrette/barrette_02s.jpg",
+      "target_index": 9,
+      "models": {
+        "NICE_global": {
+          "selected_index": 1,
+          "selected_image": "train/00073_barrette/barrette_06s.jpg",
+          "target_rank": 3
+        },
+        "ATM_global": {
+          "selected_index": 1,
+          "selected_image": "train/00073_barrette/barrette_06s.jpg",
+          "target_rank": 6
+        },
+        "anchor_nll": {
+          "selected_index": 1,
+          "selected_image": "train/00073_barrette/barrette_06s.jpg",
+          "target_rank": 2
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 9,
+          "selected_image": "train/00073_barrette/barrette_02s.jpg",
+          "target_rank": 1
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/00073_barrette/barrette_04s.jpg",
+          "sha256": "eddbfa3f2b7050dbf3efae5a6b3649927a545e24d4d9407f48ebab5377dd8e20",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 1,
+          "id": "train/00073_barrette/barrette_06s.jpg",
+          "sha256": "19c2d832cd3107274687b101e856e10b6bd971b0a7252b0dab82f1a8fa6fc465",
+          "target": false,
+          "selected_by": [
+            "NICE_global",
+            "ATM_global",
+            "anchor_nll"
+          ]
+        },
+        {
+          "index": 2,
+          "id": "train/00073_barrette/barrette_07s.jpg",
+          "sha256": "9a17e2612eeeae70b2071890f957cc16467e7938c338a6e8d8857863280e70a4",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 3,
+          "id": "train/00073_barrette/barrette_03s.jpg",
+          "sha256": "12af7513126262e57842351afa403f4350418af27340d32c38ad08d6c3d81df4",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/00073_barrette/barrette_09s.jpg",
+          "sha256": "2a315de318839dd5cfc015e496fc77bf575b616f5565a7f28d42433d290d5dd0",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 5,
+          "id": "train/00073_barrette/barrette_01b.jpg",
+          "sha256": "3591dde934d8683b2d0a11b35bbdfeb84fa6abf9f45d0507a65ab4a489460f52",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 6,
+          "id": "train/00073_barrette/barrette_08s.jpg",
+          "sha256": "063161dbd6e92a8bd3b137c76c20e5fdeaa7c6a9e386079ee6bab794ee8ec1fe",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 7,
+          "id": "train/00073_barrette/barrette_05s.jpg",
+          "sha256": "a34f7099d931b115703ef9d990d6a0ea543cb50d57976239646736aaa928a7a6",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 8,
+          "id": "train/00073_barrette/barrette_10s.jpg",
+          "sha256": "95c9b8a6bdea232cbd265f6ddab457809fde19a7eb4226202aa1c7db6fd0a5e6",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 9,
+          "id": "train/00073_barrette/barrette_02s.jpg",
+          "sha256": "92ef738e39b314d520ce927930d8ff664886a89607cb36adacee03bf63f0b055",
+          "target": true,
+          "selected_by": [
+            "hybrid_block_mlp"
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "b",
+      "concept": "screw",
+      "query_index": 1562,
+      "query_id": "train/01231_screw/screw_03s.jpg",
+      "target_index": 7,
+      "models": {
+        "NICE_global": {
+          "selected_index": 6,
+          "selected_image": "train/01231_screw/screw_07s.jpg",
+          "target_rank": 8
+        },
+        "ATM_global": {
+          "selected_index": 9,
+          "selected_image": "train/01231_screw/screw_09s.jpg",
+          "target_rank": 3
+        },
+        "anchor_nll": {
+          "selected_index": 9,
+          "selected_image": "train/01231_screw/screw_09s.jpg",
+          "target_rank": 2
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 7,
+          "selected_image": "train/01231_screw/screw_03s.jpg",
+          "target_rank": 1
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/01231_screw/screw_10s.jpg",
+          "sha256": "950c0525c4398a944709359ad7adcb3d49dff85f05bc2312e67bbf059b655570",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 1,
+          "id": "train/01231_screw/screw_04s.jpg",
+          "sha256": "7991f536d9e12e1e15f8d66af6f15fdb08f06725f4657ba2798595dde1687725",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 2,
+          "id": "train/01231_screw/screw_05s.jpg",
+          "sha256": "74bba3aff5de24baade76a22d0c3c18edd09078dac9771ee826f552562f0220f",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 3,
+          "id": "train/01231_screw/screw_02s.jpg",
+          "sha256": "90db82db01b39d9eae0ad4b08032dcaef0b8d275ea41a6f009ffed998a6fecdb",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/01231_screw/screw_01s.jpg",
+          "sha256": "fbb33a9eda0e0649a787380205eee84831a27ea6fd877b3f3290d09efdb90713",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 5,
+          "id": "train/01231_screw/screw_06s.jpg",
+          "sha256": "e8ecf224c6afa56f7c11be979d1e6c61ffcfae8fcd93545a8f159bc66d70235e",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 6,
+          "id": "train/01231_screw/screw_07s.jpg",
+          "sha256": "497c809d46262a31702e99f94a2294863429c55ce2f6379c2700c5f4f9abbba7",
+          "target": false,
+          "selected_by": [
+            "NICE_global"
+          ]
+        },
+        {
+          "index": 7,
+          "id": "train/01231_screw/screw_03s.jpg",
+          "sha256": "969893a717182de2227a655b513a879504cea2859207f0973b877c1d14137cfb",
+          "target": true,
+          "selected_by": [
+            "hybrid_block_mlp"
+          ]
+        },
+        {
+          "index": 8,
+          "id": "train/01231_screw/screw_08s.jpg",
+          "sha256": "425ddf4c8c5e4ddb98e78b7752f8cfafef777cc7da61574ce1796c58e2e9afab",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 9,
+          "id": "train/01231_screw/screw_09s.jpg",
+          "sha256": "5a502a165aa9e88aa524e0f7cfa48f100d2fc48e07b55d8c9413f4209051438f",
+          "target": false,
+          "selected_by": [
+            "ATM_global",
+            "anchor_nll"
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "c",
+      "concept": "velcro",
+      "query_index": 1937,
+      "query_id": "train/01566_velcro/velcro_08s.jpg",
+      "target_index": 8,
+      "models": {
+        "NICE_global": {
+          "selected_index": 6,
+          "selected_image": "train/01566_velcro/velcro_02s.jpg",
+          "target_rank": 2
+        },
+        "ATM_global": {
+          "selected_index": 8,
+          "selected_image": "train/01566_velcro/velcro_08s.jpg",
+          "target_rank": 1
+        },
+        "anchor_nll": {
+          "selected_index": 6,
+          "selected_image": "train/01566_velcro/velcro_02s.jpg",
+          "target_rank": 2
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 8,
+          "selected_image": "train/01566_velcro/velcro_08s.jpg",
+          "target_rank": 1
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/01566_velcro/velcro_03s.jpg",
+          "sha256": "d12b060bcdf00cefc5bca21e8c836fca43179d9a7209d71750500ec61cfdc795",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 1,
+          "id": "train/01566_velcro/velcro_04s.jpg",
+          "sha256": "4987164ce1bbcbb391a9dda2fd03a8adcb4c7c63f1bd1525cf05c1d6576df483",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 2,
+          "id": "train/01566_velcro/velcro_01b.jpg",
+          "sha256": "6bfe821540a92e778c3287c84f6025aead0a06c8b508946cc2e27d06b88520cb",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 3,
+          "id": "train/01566_velcro/velcro_10s.jpg",
+          "sha256": "bcfd55344202c0df725aca443ad6b7d01a72b7968129b9afdade293895a9c203",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/01566_velcro/velcro_07s.jpg",
+          "sha256": "0ba2728085e4e4fcfa83873f369c181cf01a890a46a51f7c10be16ca914ca0cd",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 5,
+          "id": "train/01566_velcro/velcro_06s.jpg",
+          "sha256": "9df398e22b45d3d8d4043b6952d7a7ae0d0a48c47b3ea7c1e2cae07fbfc486fe",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 6,
+          "id": "train/01566_velcro/velcro_02s.jpg",
+          "sha256": "aebbb4861716bb730874a3049499d88e2e260ba904c30fe8d8e3de0d7f1c0dd2",
+          "target": false,
+          "selected_by": [
+            "NICE_global",
+            "anchor_nll"
+          ]
+        },
+        {
+          "index": 7,
+          "id": "train/01566_velcro/velcro_09s.jpg",
+          "sha256": "b0a83fc33e6f75ffa835d027e9ecbf14e1ae28d0c091a599d8f2a25c8f279ef3",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 8,
+          "id": "train/01566_velcro/velcro_08s.jpg",
+          "sha256": "9df918aa6882432ef7ceac8ba31f139e26eb753e24b15fbb073c7c3207d84b1f",
+          "target": true,
+          "selected_by": [
+            "ATM_global",
+            "hybrid_block_mlp"
+          ]
+        },
+        {
+          "index": 9,
+          "id": "train/01566_velcro/velcro_05s.jpg",
+          "sha256": "bba1385b3d137db34ea68fff5ac17d17f46288379eab2faf3ee7f05a4adf08fd",
+          "target": false,
+          "selected_by": []
+        }
+      ]
+    },
+    {
+      "panel": "d",
+      "concept": "nail",
+      "query_index": 1151,
+      "query_id": "train/00927_nail/nail_02s.jpg",
+      "target_index": 1,
+      "models": {
+        "NICE_global": {
+          "selected_index": 4,
+          "selected_image": "train/00927_nail/nail_05s.jpg",
+          "target_rank": 3
+        },
+        "ATM_global": {
+          "selected_index": 9,
+          "selected_image": "train/00927_nail/nail_08s.jpg",
+          "target_rank": 2
+        },
+        "anchor_nll": {
+          "selected_index": 4,
+          "selected_image": "train/00927_nail/nail_05s.jpg",
+          "target_rank": 3
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 1,
+          "selected_image": "train/00927_nail/nail_02s.jpg",
+          "target_rank": 1
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/00927_nail/nail_04s.jpg",
+          "sha256": "eaa1b4db7da5ff7e827c51633f8bf355f04fe866ffe7ec45b8334741a86197d4",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 1,
+          "id": "train/00927_nail/nail_02s.jpg",
+          "sha256": "7544461c1b872c8867a595239e70f7aedb6d09c8c30470ec4fdb3a9be2ceb442",
+          "target": true,
+          "selected_by": [
+            "hybrid_block_mlp"
+          ]
+        },
+        {
+          "index": 2,
+          "id": "train/00927_nail/nail_01b.jpg",
+          "sha256": "8a19ecfceadd7ce0bce2021fbc1800eca2962b9984e7bef4efa906e4de051ba6",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 3,
+          "id": "train/00927_nail/nail_09s.jpg",
+          "sha256": "0295cef0a90454654a6fbf2e679a9cfaa3966f7f17189ca04ffb058b60d7bd7e",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/00927_nail/nail_05s.jpg",
+          "sha256": "4c834796c821ec760944c8fd86e9997bc2a1c15cc1fbd149339eaf827db34f0d",
+          "target": false,
+          "selected_by": [
+            "NICE_global",
+            "anchor_nll"
+          ]
+        },
+        {
+          "index": 5,
+          "id": "train/00927_nail/nail_06s.jpg",
+          "sha256": "9fb3d5806d9a76eed1fbecce49d6e2aa6891dc245e28f7157e6acc4ddcc4b789",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 6,
+          "id": "train/00927_nail/nail_03s.jpg",
+          "sha256": "a704d08c919fb0a599be0a8917c9d7a59a4eaf5ecc4fa683ef2d2ce17b5a1720",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 7,
+          "id": "train/00927_nail/nail_07s.jpg",
+          "sha256": "e11278e6a932c4fd3e17aa0ba863eb848c813fa1a60c230031e78b3ead09b55d",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 8,
+          "id": "train/00927_nail/nail_10s.jpg",
+          "sha256": "f28a7441c5e2652f3a610618e1470b26a0867244c3aeab7c36fb1b8c2cdaaeac",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 9,
+          "id": "train/00927_nail/nail_08s.jpg",
+          "sha256": "688dee1ad00632c69d6653b5d500fb9e088ed9578ecb3fe13c22c317d87f87cd",
+          "target": false,
+          "selected_by": [
+            "ATM_global"
+          ]
+        }
+      ]
+    },
+    {
+      "panel": "e",
+      "concept": "combination_lock",
+      "query_index": 377,
+      "query_id": "train/00342_combination_lock/combination_lock_08s.jpg",
+      "target_index": 5,
+      "models": {
+        "NICE_global": {
+          "selected_index": 0,
+          "selected_image": "train/00342_combination_lock/combination_lock_02s.jpg",
+          "target_rank": 2
+        },
+        "ATM_global": {
+          "selected_index": 2,
+          "selected_image": "train/00342_combination_lock/combination_lock_05s.jpg",
+          "target_rank": 2
+        },
+        "anchor_nll": {
+          "selected_index": 5,
+          "selected_image": "train/00342_combination_lock/combination_lock_08s.jpg",
+          "target_rank": 1
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 5,
+          "selected_image": "train/00342_combination_lock/combination_lock_08s.jpg",
+          "target_rank": 1
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/00342_combination_lock/combination_lock_02s.jpg",
+          "sha256": "49e824c661d50531da07da576b5599e76026c4e8c86f52601ff18e96db32a1ef",
+          "target": false,
+          "selected_by": [
+            "NICE_global"
+          ]
+        },
+        {
+          "index": 1,
+          "id": "train/00342_combination_lock/combination_lock_01b.jpg",
+          "sha256": "d5d5530f091aaf6d219b84e1802b8b84361c79d1932d1b999e686178b7e3cae3",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 2,
+          "id": "train/00342_combination_lock/combination_lock_05s.jpg",
+          "sha256": "bd2e6d3caabfac93c5f4ea59336e6205188874eceaec9c46139ea4d905a81c05",
+          "target": false,
+          "selected_by": [
+            "ATM_global"
+          ]
+        },
+        {
+          "index": 3,
+          "id": "train/00342_combination_lock/combination_lock_03s.jpg",
+          "sha256": "994c81afc67e4e3f3d4805b23111d67f964b9c72abcf2ef8cd905d38473db7cc",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/00342_combination_lock/combination_lock_04s.jpg",
+          "sha256": "d875466299c9c3861616bcd1d03f2239a3b2cb2b529fddaddc6ac3980fa4b1c2",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 5,
+          "id": "train/00342_combination_lock/combination_lock_08s.jpg",
+          "sha256": "64e63c24646b2d51ae8bb82dbd11ba23fcb784aa1cdeb322e1aed9002bcd3e1f",
+          "target": true,
+          "selected_by": [
+            "anchor_nll",
+            "hybrid_block_mlp"
+          ]
+        },
+        {
+          "index": 6,
+          "id": "train/00342_combination_lock/combination_lock_10s.jpg",
+          "sha256": "b95cf852e05148565f58ae6ed2ce66eb39941a70aefd210b06e024ed6c282f5c",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 7,
+          "id": "train/00342_combination_lock/combination_lock_09s.jpg",
+          "sha256": "fa5aed4f2c4c441b4cca95b34763a12a16b75de6c1f0b5a4f90a50bdc65a4f64",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 8,
+          "id": "train/00342_combination_lock/combination_lock_06s.jpg",
+          "sha256": "44fabbc464b90f471184be2474592efb2245b06e0cf393b2b1b7bbdf0b75f234",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 9,
+          "id": "train/00342_combination_lock/combination_lock_07s.jpg",
+          "sha256": "3f71c8acc650be8949405fe13a194c504ee8f27fedcf0f352e5fb54c6c1c490a",
+          "target": false,
+          "selected_by": []
+        }
+      ]
+    },
+    {
+      "panel": "f",
+      "concept": "zipper",
+      "query_index": 1998,
+      "query_id": "train/01653_zipper/zipper_09s.jpg",
+      "target_index": 8,
+      "models": {
+        "NICE_global": {
+          "selected_index": 5,
+          "selected_image": "train/01653_zipper/zipper_04s.jpg",
+          "target_rank": 7
+        },
+        "ATM_global": {
+          "selected_index": 5,
+          "selected_image": "train/01653_zipper/zipper_04s.jpg",
+          "target_rank": 4
+        },
+        "anchor_nll": {
+          "selected_index": 8,
+          "selected_image": "train/01653_zipper/zipper_09s.jpg",
+          "target_rank": 1
+        },
+        "hybrid_block_mlp": {
+          "selected_index": 7,
+          "selected_image": "train/01653_zipper/zipper_01b.jpg",
+          "target_rank": 2
+        }
+      },
+      "candidates": [
+        {
+          "index": 0,
+          "id": "train/01653_zipper/zipper_06s.jpg",
+          "sha256": "fc7a572bcebaa774b1f217c1f46a868152492521d9d11b673f04f2f6be5ddc10",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 1,
+          "id": "train/01653_zipper/zipper_03s.jpg",
+          "sha256": "8a5e95ba487823c613870fe67c1131d6718a11e51ab6df9f4662f0df8aa52cb1",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 2,
+          "id": "train/01653_zipper/zipper_05s.jpg",
+          "sha256": "1dbe0250c8bba80402a3e5d97e1944e352f7cd9e0520097d5cf42ebbdcf5c167",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 3,
+          "id": "train/01653_zipper/zipper_08s.jpg",
+          "sha256": "8959f17d174ddb1e0cb3ede86349b22b6b963f3fb1eb60aca50379bf4e84edad",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 4,
+          "id": "train/01653_zipper/zipper_07s.jpg",
+          "sha256": "0c8a4322daf8376b909541b6dab765ed3e9d3cf92cdfb77e7b0e9de34bf79ea2",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 5,
+          "id": "train/01653_zipper/zipper_04s.jpg",
+          "sha256": "a6d459dd677b702c1820e14167f7567a5bbe4a46fd20a404b3052f16c665373b",
+          "target": false,
+          "selected_by": [
+            "NICE_global",
+            "ATM_global"
+          ]
+        },
+        {
+          "index": 6,
+          "id": "train/01653_zipper/zipper_10s.jpg",
+          "sha256": "524b07c38288e039dd32214c73680a717a984c612ec2dd792c3c5e931651bbe9",
+          "target": false,
+          "selected_by": []
+        },
+        {
+          "index": 7,
+          "id": "train/01653_zipper/zipper_01b.jpg",
+          "sha256": "8a21063aad0dcdadf930a89a39bbcc8bf5a9dcd7047fe4a1250d42b5273c0dc7",
+          "target": false,
+          "selected_by": [
+            "hybrid_block_mlp"
+          ]
+        },
+        {
+          "index": 8,
+          "id": "train/01653_zipper/zipper_09s.jpg",
+          "sha256": "1952201beb1da61c1c713159f12b00b174f91b7a3fbda91bdcccc37ca3098e0d",
+          "target": true,
+          "selected_by": [
+            "anchor_nll"
+          ]
+        },
+        {
+          "index": 9,
+          "id": "train/01653_zipper/zipper_02s.jpg",
+          "sha256": "958f67e45285ca5a6c72dfde1c88b397eecfc92c43cac6ada0ff8046023f0326",
+          "target": false,
+          "selected_by": []
+        }
+      ]
+    }
+  ],
+  "unselected_by_all_four_scorers": 44,
+  "image_processing": "CC0 concept icons resized with white padding; candidate cards show IDs and verified choices, not image contents",
+  "image_rights": "Only documented THINGSplus-CC0 photographs are displayed. Original stimulus IDs and hashes identify experimental records; their photographs are not redistributed.",
+  "displayed_candidate_records": 60,
+  "displayed_CC0_concept_photographs": 6,
+  "original_stimulus_photographs_displayed": 0
+}

@@ -1,0 +1,200 @@
+{
+  "within10": {
+    "top1": {
+      "rank": 4,
+      "best3": [
+        "compact_equal_temperature",
+        "compact_equal_uncalibrated",
+        "compact_Brier"
+      ]
+    },
+    "top5": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_nll",
+        "compact_Brier"
+      ]
+    },
+    "map": {
+      "rank": 2,
+      "best3": [
+        "compact_Brier",
+        "hybrid_block_mlp",
+        "hybrid_nll"
+      ]
+    },
+    "brier": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_nll",
+        "compact_Brier"
+      ]
+    },
+    "nll": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_nll",
+        "compact_Brier"
+      ]
+    },
+    "aurc": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "compact_Brier",
+        "hybrid_nll"
+      ]
+    },
+    "ece15": {
+      "rank": 14,
+      "best3": [
+        "NICE_SATTC",
+        "dual_SATTC",
+        "ATM_SATTC"
+      ]
+    },
+    "wrong_confidence": {
+      "rank": 42,
+      "best3": [
+        "NICE_SATTC",
+        "ATM_SATTC",
+        "dual_SATTC"
+      ]
+    }
+  },
+  "cross10": {
+    "top1": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_brier",
+        "compact_Brier"
+      ]
+    },
+    "top5": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_nll",
+        "hybrid_brier"
+      ]
+    },
+    "map": {
+      "rank": 1,
+      "best3": [
+        "hybrid_block_mlp",
+        "hybrid_brier",
+        "hybrid_nll"
+      ]
+    },
+    "brier": {
+      "rank": 3,
+      "best3": [
+        "hybrid_nll",
+        "hybrid_brier",
+        "hybrid_block_mlp"
+      ]
+    },
+    "nll": {
+      "rank": 3,
+      "best3": [
+        "hybrid_nll",
+        "hybrid_brier",
+        "hybrid_block_mlp"
+      ]
+    },
+    "aurc": {
+      "rank": 4,
+      "best3": [
+        "hybrid_nll",
+        "hybrid_brier",
+        "compact_residual"
+      ]
+    },
+    "ece15": {
+      "rank": 2,
+      "best3": [
+        "compact_residual",
+        "hybrid_block_mlp",
+        "compact_diagonal"
+      ]
+    },
+    "wrong_confidence": {
+      "rank": 38,
+      "best3": [
+        "block_equal_uncalibrated",
+        "compact_equal_uncalibrated",
+        "hybrid_equal_uncalibrated"
+      ]
+    }
+  },
+  "official200": {
+    "top1": {
+      "rank": 6,
+      "best3": [
+        "compact_equal_temperature",
+        "compact_equal_uncalibrated",
+        "compact_Brier"
+      ]
+    },
+    "top5": {
+      "rank": 8,
+      "best3": [
+        "hybrid_brier",
+        "hybrid_nll",
+        "hybrid_no_block"
+      ]
+    },
+    "map": {
+      "rank": 6,
+      "best3": [
+        "hybrid_brier",
+        "hybrid_nll",
+        "compact_Brier"
+      ]
+    },
+    "brier": {
+      "rank": 2,
+      "best3": [
+        "compact_equal_temperature",
+        "hybrid_block_mlp",
+        "compact_Brier"
+      ]
+    },
+    "nll": {
+      "rank": 4,
+      "best3": [
+        "hybrid_nll",
+        "hybrid_brier",
+        "hybrid_no_block"
+      ]
+    },
+    "aurc": {
+      "rank": 3,
+      "best3": [
+        "compact_equal_temperature",
+        "compact_Brier",
+        "hybrid_block_mlp"
+      ]
+    },
+    "ece15": {
+      "rank": 20,
+      "best3": [
+        "NICE_SATTC",
+        "ATM_NEARG_MLP",
+        "ATM_NEARG_ridge"
+      ]
+    },
+    "wrong_confidence": {
+      "rank": 29,
+      "best3": [
+        "compact_equal_uncalibrated",
+        "hybrid_equal_uncalibrated",
+        "block_equal_uncalibrated"
+      ]
+    }
+  }
+}

@@ -1,0 +1,902 @@
+[
+  {
+    "path": "predictions/sub-01/seed2028/within10_ours.npz",
+    "sha256": "5574eed0dd88781b9c34b4c52706ece96c7fb19f1552e37446bec7272a01023e",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2028/within10_anchor_nll.npz",
+    "sha256": "675ace34274c478805785212d89c6d64934ca1a8b93d10904046a90c21c088ff",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2028/cross10_ours.npz",
+    "sha256": "72a95277b663d212198fa3a1b14af38dcad96014871f88c453e40fb06bcb5df8",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2028/cross10_anchor_nll.npz",
+    "sha256": "b3879e19bde26113808f1b3a4ee093c1d0c7a78cdc00148cf56b1cd5f07b19fc",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2028/official200_ours.npz",
+    "sha256": "ca02476683a7a5470dccd09036653444b3bfd7f6a15781028225fdbbe7b886de",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2028/official200_anchor_nll.npz",
+    "sha256": "c591798e78397ef9146da3eff44bf7e15ce3d8f9fa9a617398e12c93af2ee0c3",
+    "source": "data/results/compact_audit_v86/sub-01/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/within10_ours.npz",
+    "sha256": "46688057539876cd82a315df4b34a9fd53b773d4cfd847bca2dfbb28d3e43394",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/within10_anchor_nll.npz",
+    "sha256": "0b28d8bb76fcf10e98854b8c9bdec9285f4dfa94c8eb46dae0ca027ea92dff40",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/cross10_ours.npz",
+    "sha256": "4ff9149abd9ddbea29f302ef6f6233240c7bcf8bee4b6bf60cfad5c5b1c77e56",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/cross10_anchor_nll.npz",
+    "sha256": "22ff459377d89278e88d6c946031ca800ebd808ee1fc3e776290bcf91e3ca64a",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/official200_ours.npz",
+    "sha256": "11b02d6bedcf2007b0f7fa1be7ea75d30e446326e25e0bee6504b7f299726367",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2029/official200_anchor_nll.npz",
+    "sha256": "0bdcd644e6b8342e1c280933e4df4cedf93140e5d075651815fc54ec6d2457f0",
+    "source": "data/results/compact_audit_v86/sub-01/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/within10_ours.npz",
+    "sha256": "27f4c7b11156248f96aac03bca20f7c3c95b71bf8ba03a49471dea14c6f20760",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/within10_anchor_nll.npz",
+    "sha256": "538995d7e97df2ed1dd1dd212bebf56cb48cff90b520cf742b043992138b607c",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/cross10_ours.npz",
+    "sha256": "a06b344efa5b21e7d532bcddab069b8046a42f0d72b6ce0f957f04fd57141d7b",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/cross10_anchor_nll.npz",
+    "sha256": "02f74ff61da459bbb9efa277662cd65fe253620d191387c688f46624f3352b2a",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/official200_ours.npz",
+    "sha256": "450d3b61f8b280fb457bf23c52fe86f69b77926dd51f7b57a622e8a57402f7ea",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-01/seed2030/official200_anchor_nll.npz",
+    "sha256": "d1eaa6a913074e2078c72e78d7618388cd41c7de9d646a6ac5b4e998bdc74cf3",
+    "source": "data/results/compact_audit_v86/sub-01/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/within10_ours.npz",
+    "sha256": "aa540187c90528005b8d672e8d0821d4f4580f2f71130180e5992b7fb453c464",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/within10_anchor_nll.npz",
+    "sha256": "0a0679c0214183eab1ec64523f0921852de99dce1ce3c4f394614448714edd59",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/cross10_ours.npz",
+    "sha256": "23145a24428d3c3ed3982d61030cca11f1f2778ba7e6cad4b7ff0ba3ce27158d",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/cross10_anchor_nll.npz",
+    "sha256": "cd19b4a5e70da39d49cb8c42106fe8fd90d18865ad9e74ce99d08c8bab4b4256",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/official200_ours.npz",
+    "sha256": "7a51faf40529dd898c23af2303d1ba78039745f4acde8ec00198fb8a2af2c78f",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2028/official200_anchor_nll.npz",
+    "sha256": "c6625dc0d3fc4e6d60fc37b9bb2983f409fd2ebfc7bb9434256625a3d343162e",
+    "source": "data/results/compact_audit_v86/sub-02/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/within10_ours.npz",
+    "sha256": "1cf67b68df7d38159d1e3d08d6a7acd9f560d1729292e8a900846b71a16be921",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/within10_anchor_nll.npz",
+    "sha256": "c21432832dfc56fe87ed2999c4621b077f15d06014ba9c879e7950c58f647d81",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/cross10_ours.npz",
+    "sha256": "0527aa8e7d1d4f99bbcc56ceb57720690988c08067f172c4fc48160f11728495",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/cross10_anchor_nll.npz",
+    "sha256": "f0e5a4f07571979277f44137b6f38aaadc41ee11d2fb45cfebc28603b42380e1",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/official200_ours.npz",
+    "sha256": "ac8f9ef99219da3e92d103df449453e959c58769ae692a1ad8cf1e742513eee0",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2029/official200_anchor_nll.npz",
+    "sha256": "1c187fefe4ada04a1f4d62a24db5c61898e0ea9912f06b5a22eea8caf5559240",
+    "source": "data/results/compact_audit_v86/sub-02/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/within10_ours.npz",
+    "sha256": "3d07deb2a3205d0b93fc6f5e019491ece7c73010a633a671259fd2014461efb5",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/within10_anchor_nll.npz",
+    "sha256": "c7f7856c5ba679cf9fe5d809b167f9f8fb9ee576b232e51e1c58b3eb43e8de4f",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/cross10_ours.npz",
+    "sha256": "0e40505665a800ad18a4eff19184592a2bcf1647f6746ce7e7918a97d8f297b6",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/cross10_anchor_nll.npz",
+    "sha256": "b21e108311aae83bc4f6a4a3270cb310d1375fa9b720f876c7cac2a7ce57e0f0",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/official200_ours.npz",
+    "sha256": "b32b82308a11395662ec5a058c84c971cc1faf47cf993a4773b273bc133d212f",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-02/seed2030/official200_anchor_nll.npz",
+    "sha256": "bdc902f2c188e95ff90e911554fd1bd2f96e89c8dc4bafaa342ed1a3847d8f44",
+    "source": "data/results/compact_audit_v86/sub-02/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/within10_ours.npz",
+    "sha256": "eaf70064df1d99c5b2a2c6e445f225a5379d9e158cb4acfdff47ea4c531836ef",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/within10_anchor_nll.npz",
+    "sha256": "a63112a293e8391adb19d0dd7d223c0fe21f300c72d0472f56932eaf2a35ba71",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/cross10_ours.npz",
+    "sha256": "e94c185ad160fb430904d14419d6a45d6fb54eb69a18e4b49a7057ee33c3cf77",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/cross10_anchor_nll.npz",
+    "sha256": "0d6b7ad625a3ce3ca37f5f8192cfee240fb29aec6c2fb49a19f493ff9da39803",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/official200_ours.npz",
+    "sha256": "94c4be13833bc40b896d9d2745099b75ff708ffb64930c827aceb39434bcf897",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2028/official200_anchor_nll.npz",
+    "sha256": "c772edf1a364075950ae3ae62c5a8582f88042ebffaf454a66709ac543617f5d",
+    "source": "data/results/compact_audit_v86/sub-03/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/within10_ours.npz",
+    "sha256": "5203c69ddcb6fa8b9da1454661d520549bbca8b3ae73a18b2dcff977587d2fb8",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/within10_anchor_nll.npz",
+    "sha256": "c1dd3e6f98c167e825988ca7382c639268e9361ab998124d55765c8baf86d101",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/cross10_ours.npz",
+    "sha256": "d7591b6bf0dc657a7c0710d46f4a0adf321aa7f3f3658e28316f00ca65b23d72",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/cross10_anchor_nll.npz",
+    "sha256": "22365a0090701263acf533b2cb1a896e6757556de93642d1fee528ac47592d47",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/official200_ours.npz",
+    "sha256": "93bfe40b2039c4efc0d55d610962606fead1585ead7f597297e809c474daacb0",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2029/official200_anchor_nll.npz",
+    "sha256": "03bd1dce897e8a654c6bee3a7665c38bbfa08264f54ca48e562c84d4ec8dd947",
+    "source": "data/results/compact_audit_v86/sub-03/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/within10_ours.npz",
+    "sha256": "fd7f35c5be32ce4e2f088c09931645e5fcfb75cc39fcc6a3e3927f24afdccd60",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/within10_anchor_nll.npz",
+    "sha256": "8073f6a05885c45480b3600664c6ba51d1235e2859f4744085481c0ce0599383",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/cross10_ours.npz",
+    "sha256": "d7f6c851bce66eae97aaa87336c50dbf46adc4ab959b0642780df64053345264",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/cross10_anchor_nll.npz",
+    "sha256": "663ac307e075afbc9518843f6baaaeebfa7b3307160982b5449b7c025dd3f2b8",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/official200_ours.npz",
+    "sha256": "c0295b276407bf0107eeca9274fc53e723c34220660124cbf98b40b0b1093afe",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-03/seed2030/official200_anchor_nll.npz",
+    "sha256": "9f0b9e1b2660c15290b55d6cd2f5a312050b52af41b002a1bbf8a598542e1cbf",
+    "source": "data/results/compact_audit_v86/sub-03/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/within10_ours.npz",
+    "sha256": "02c4319084bc5f259e0b438888821a5b90d3207322a2d286d137facaf9d27648",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/within10_anchor_nll.npz",
+    "sha256": "4090c395598d4a2e780c7abcde39f8ad619ec3388570b89b04fcfb6635335277",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/cross10_ours.npz",
+    "sha256": "4c8aa04a549454b4d53de9046b01e059c1799edf316dcfee2029d81508002fe3",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/cross10_anchor_nll.npz",
+    "sha256": "e51d700ff9ef692b0266958e35fe13a30bb3861f1f18a8d0c71b32572f4b7c94",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/official200_ours.npz",
+    "sha256": "b50657e9dbb8c3a7c912e291c6ec73282dddf9816be832fb91395406aa74a977",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2028/official200_anchor_nll.npz",
+    "sha256": "f435027b3c691e7b6ea8a4d6405583f6dd2cf1c466f11c7364cf1550693c42c5",
+    "source": "data/results/compact_audit_v86/sub-04/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/within10_ours.npz",
+    "sha256": "33dc0f893d555efc734972344f94adb92bb690a16fac16bb907bf448f88ae158",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/within10_anchor_nll.npz",
+    "sha256": "79349f8e2019c71c0b7601031bd62c7b2b7a2a48b7214bbfd02a5a85e104dd3b",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/cross10_ours.npz",
+    "sha256": "09539631204cf931952781377d474d970648cb80a1b4f036e4c55cb586a69868",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/cross10_anchor_nll.npz",
+    "sha256": "92543c4c0acd249a8eae6606984e4ad9e8665b61ba06d456020d5a09584751f5",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/official200_ours.npz",
+    "sha256": "ffa75f742ca535ba3c300c1723a2939bec43a8bbf5f3305e46d740c5a55e2eb3",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2029/official200_anchor_nll.npz",
+    "sha256": "fb754e5a418c60631b430eafa41689f210c55c32d9f73c5772ff261a109de2c8",
+    "source": "data/results/compact_audit_v86/sub-04/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/within10_ours.npz",
+    "sha256": "76bb6d6dac5c0a3d7db1e981affe5dbac8ab135fbac9ee1a9715aa161c692960",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/within10_anchor_nll.npz",
+    "sha256": "c985ddce753a51d5535028289220ee38e340cc6fc5e3a046170430b43a0c440b",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/cross10_ours.npz",
+    "sha256": "020aa6c519acbd2a73ba7a9d36abb27b107a3b5d12b832fce49ac7f5a6e72f14",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/cross10_anchor_nll.npz",
+    "sha256": "9b94bbf0b746ef57bdeb529671e391ac3b6f4cce7c050c8e303179ed9530a365",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/official200_ours.npz",
+    "sha256": "7c11df56740fc63131c3bd21873283321cb1f869905e6ccba3b7ffaca19bd87a",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-04/seed2030/official200_anchor_nll.npz",
+    "sha256": "8f13e19d72fadc43ecf7038c42267feec64cfbc6f17069cfea3cdcd1ba14c217",
+    "source": "data/results/compact_audit_v86/sub-04/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/within10_ours.npz",
+    "sha256": "6ff990e37268505e2e84fc80bfd02e0cf798cf70c62a8f53a1afd95a87e33d8e",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/within10_anchor_nll.npz",
+    "sha256": "ff936fb9a1793d8981fb049faf1f7e8c290072b1bb4dd8ccae8a01efedcb73b9",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/cross10_ours.npz",
+    "sha256": "9e0092a9e63a638c6e3aa337d6c9d2bd5a7a8efd89a72fed9aedf958f279a794",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/cross10_anchor_nll.npz",
+    "sha256": "e0a4afa873d8efe1dd84c72adb1ebd0249e618596dff40a51fae98cf2defe70f",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/official200_ours.npz",
+    "sha256": "98fe5dab0738b78e741d1ecc4fca107a6ea824e4e1fb66e05ab6132b5cf8b04e",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2028/official200_anchor_nll.npz",
+    "sha256": "9b4f232ccaeda43c1f25831e0e5d270b2c7ceb64573ef260d16475fbcd1cd852",
+    "source": "data/results/compact_audit_v86/sub-05/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/within10_ours.npz",
+    "sha256": "035072bef3cc690374ab400387b76ac97208e309d9a3e1b1ba0a37502417bace",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/within10_anchor_nll.npz",
+    "sha256": "cfdb33302938537e655575c7d446ec2451a92af68b9c23964fee4fcdd8309483",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/cross10_ours.npz",
+    "sha256": "a046a1019c2993fd3a88071fe571b01b9ccd9dbe69d7580c3101c36bcc81be23",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/cross10_anchor_nll.npz",
+    "sha256": "bdcc19090f6fb5d9dbe5652b570ab51aecc9337a46529c7da901872006b066b7",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/official200_ours.npz",
+    "sha256": "2ffb91b8d4d3e41ae1a85707d380af097801dccab39df4015d7b34badde39785",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2029/official200_anchor_nll.npz",
+    "sha256": "55e8774175d86df899fb109d8639cfd9ddb787ffcb18ca8998c8fa37777c54e4",
+    "source": "data/results/compact_audit_v86/sub-05/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/within10_ours.npz",
+    "sha256": "1bfd6b3da041a26cdecf7525317a59dc0d0e911311526a174fcc6c6f9aa2af1e",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/within10_anchor_nll.npz",
+    "sha256": "78e66950c1b5d89d170e66d88172f8a648cecdca934bfd04efd17e1f506816e5",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/cross10_ours.npz",
+    "sha256": "f6302b928a309b77d02846b266deaaa1f002439c5fb02378398b29f9cd80ce47",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/cross10_anchor_nll.npz",
+    "sha256": "7da9f9ea23038debbd330bfdb2b5230c64ed453bb848ff82f7b4d80aacb8b0b9",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/official200_ours.npz",
+    "sha256": "79f34a461b1eec22f4d2ba2ce8ca3a895ff40d45e2b1c3c1dbf32c2241e2a19d",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-05/seed2030/official200_anchor_nll.npz",
+    "sha256": "50078c3fdef518d0fe7cac07f26a893bc8978629f798952f5a91544c87ac3c4d",
+    "source": "data/results/compact_audit_v86/sub-05/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/within10_ours.npz",
+    "sha256": "129d8b02d93bf54779b96024e02d6773c3cf2ef00da3f41abb1b81522bf57d5e",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/within10_anchor_nll.npz",
+    "sha256": "9e5197f35f8596e42351b7c5c7cbf3dff9bc9bb51c9572f39059b4e8942e027a",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/cross10_ours.npz",
+    "sha256": "400112cbffc1f2cdd625258231498f9e8765907852794c7b2fcd45d90a76ead9",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/cross10_anchor_nll.npz",
+    "sha256": "635061baf07541d270e133c64005fd61e3444d210a68117eaf3a62044f508815",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/official200_ours.npz",
+    "sha256": "383fd7174c92dd0f203e9ee83d3ab43b84484246c34ad2e0f988579fc1cd15dd",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2028/official200_anchor_nll.npz",
+    "sha256": "b4b899af7db2275d23ccb1e00f45d0603d01a9e801b66146e9d33addb34c94de",
+    "source": "data/results/compact_audit_v86/sub-06/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/within10_ours.npz",
+    "sha256": "4eda014bd86ba6484f362c5d429e93edb3a34e8f21c81234299b70429a05fc81",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/within10_anchor_nll.npz",
+    "sha256": "e7cf8d4e3f5020e181c42434e474b9b1bc8294ca786f73f3de5e87098c3a21d8",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/cross10_ours.npz",
+    "sha256": "4d364640be4a24d6ee24c19149e955515ef1716b972fe0ff0ece0bf30631bfc7",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/cross10_anchor_nll.npz",
+    "sha256": "c8883210f77c99849c527383d5a804a3a2256ccab7a79e06b37ecc2b4eda0c44",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/official200_ours.npz",
+    "sha256": "e524f9ecab56cd0d5e13b08087b5bc382ddf09c4f8d0d0766b935d203bd64932",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2029/official200_anchor_nll.npz",
+    "sha256": "26d03339d597eb397c2edf70eb03bc48fc8e46e3520cf0d7e9ae7b883480b5cc",
+    "source": "data/results/compact_audit_v86/sub-06/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/within10_ours.npz",
+    "sha256": "64e8b4e3c0b3e3a25e1cdd10b0efd37a030f307328df200170192957049cf6bb",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/within10_anchor_nll.npz",
+    "sha256": "851a9ba9fe707ff4dc9ee12beb5f4135731e52a430d12f0efb39495812b5bd06",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/cross10_ours.npz",
+    "sha256": "c32278a15e2bea4171f2fd85734d6c3b3fb536fcba60a901af35103b4d8fa0bb",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/cross10_anchor_nll.npz",
+    "sha256": "3f0d78244f7d5734d00f80a39827379c96db6707876d3b8783776bf22d77c406",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/official200_ours.npz",
+    "sha256": "b8f58614e51256224f861341e404708151c91eea964dcf7340ef023ebd6b4d12",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-06/seed2030/official200_anchor_nll.npz",
+    "sha256": "a0eac0a2e8223684e23674a100bab622b95f01c998aa5b19111e2630081b46cd",
+    "source": "data/results/compact_audit_v86/sub-06/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/within10_ours.npz",
+    "sha256": "20c84e9259c7dae3dcdbadcee25ebf089bd7289301e426cb69105a6b6dd64d30",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/within10_anchor_nll.npz",
+    "sha256": "802f3e00d1bcbed0abb7794c97a9dee9a36b6bbfbdbb4a4b1d5e3f6244a58f6e",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/cross10_ours.npz",
+    "sha256": "59105d458bdbcd94a2ba5cc1f85031446bff062298503a66584b2c07031c0524",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/cross10_anchor_nll.npz",
+    "sha256": "29bd7452ecf8db596e7be504beaa7e978f27f5efcf8e484bca2e8cccd4167d88",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/official200_ours.npz",
+    "sha256": "b4797386d5d6e58effd01104b6df956595babe108e26d1428850e7b09c10e554",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2028/official200_anchor_nll.npz",
+    "sha256": "5ed2b0ea0ed12866fdfe9f76e9f23a83c133f4a8c3c64d879deef8c36dfe5d77",
+    "source": "data/results/compact_audit_v86/sub-07/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/within10_ours.npz",
+    "sha256": "7f72ae1ba4682482e79862087c2088539fabab39d621b9c9eaf25e1b09862772",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/within10_anchor_nll.npz",
+    "sha256": "2f6ed9e4d0836c2c4d9ac16e41a5749a8332938ab293b0a49a4ddec848b1a15e",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/cross10_ours.npz",
+    "sha256": "89f2a4736eadc9670a85349f4dbd83ef2ef183dfb56370c2aefcf42fd0005916",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/cross10_anchor_nll.npz",
+    "sha256": "3287de78278431d7db7c8871dbd25f82c6c8d26c1f99e0dc2e50b78a376c2fb5",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/official200_ours.npz",
+    "sha256": "bfca262bc2789002f1367de5be0178c02ed0129a69b3864b31b382ab82381593",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2029/official200_anchor_nll.npz",
+    "sha256": "396d5f3db927d1f2c1d773c6d26d1637cdd9ef7928b55ff9f261587f841b3840",
+    "source": "data/results/compact_audit_v86/sub-07/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/within10_ours.npz",
+    "sha256": "9efcc1353f157c84a8aa39646f08539e83126cdcd4499b549cde6c92e12f4469",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/within10_anchor_nll.npz",
+    "sha256": "56e3545fe45309b91b06819c257741c76dc9164e011136947cda3464e9e3f6c1",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/cross10_ours.npz",
+    "sha256": "ad33fe9250f15ef4c48df9b031fc0feccc1a79c26b86c6ff0e5667d1d3474e7a",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/cross10_anchor_nll.npz",
+    "sha256": "97565e47f1a41e141f31cdc56a8e861b59bc025c09db92ce193848dd770a2805",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/official200_ours.npz",
+    "sha256": "7a05176b0cf4df52e8959cd2cb54c75ee520c1fffac6e75842f1bc6aba9daf60",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-07/seed2030/official200_anchor_nll.npz",
+    "sha256": "c33a6d2a86dbdd681d996c75e27588a2238944555d17c8535d7f49b121b8798c",
+    "source": "data/results/compact_audit_v86/sub-07/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/within10_ours.npz",
+    "sha256": "de903032b51cf269f3d943355e5ccee5e25f08d77d469e5627dcf8c18a92271e",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/within10_anchor_nll.npz",
+    "sha256": "fbe07f134dbfccd90d2f167f2358221f3b0223ed491c1bc3f047d1a3337b9577",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/cross10_ours.npz",
+    "sha256": "bff93aac8783a8b20f1d77405c4882facb74caf9dfe932a5378e4589c1523369",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/cross10_anchor_nll.npz",
+    "sha256": "4a2e3991cc645a86ac597bc374e024c67b4e0067a5e099c61221f52884a09ac7",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/official200_ours.npz",
+    "sha256": "5cce53315e52f84a57c4ba3e03caa8d795b9db9faaeee92f0ce489fb03f4b292",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2028/official200_anchor_nll.npz",
+    "sha256": "c65b409b66225d2ea018f26ffbfc6db763d0ea72f4a7a48f1ab7cb5f2f056e13",
+    "source": "data/results/compact_audit_v86/sub-08/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/within10_ours.npz",
+    "sha256": "105dea3680ca4638dfa2bf7920edcb218183ef4cda0950e02dafa67b509b8597",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/within10_anchor_nll.npz",
+    "sha256": "03d64a32e4e2ad12f58b51c4103384e9d7fe2707092d5bb6942e18fca9b6bcaa",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/cross10_ours.npz",
+    "sha256": "2944b2b4662aaa2169f4d5d2bf1de691c2247f4fdb926f898a97f952472d711f",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/cross10_anchor_nll.npz",
+    "sha256": "8e2732566f03ebf4a7a087ddca63356b2104fa03e4d126ec387b3f8003d95d01",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/official200_ours.npz",
+    "sha256": "0369ad3cbe69ed8f9d287767fe956a1f21ebd1b5ecefe3ea6d25fc5618252eed",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2029/official200_anchor_nll.npz",
+    "sha256": "023dd0ea4b47eb0aeed496d3170795d98e15524b774150905ce776d365fd1ed6",
+    "source": "data/results/compact_audit_v86/sub-08/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/within10_ours.npz",
+    "sha256": "544b787a65e78e93a51292cadbf92d86f31b9c16dc5480582cc7f3de419d3713",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/within10_anchor_nll.npz",
+    "sha256": "431d5a61434426e629f4f654e489a4e27d73c9e097c07f822bc3d773dc0e3680",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/cross10_ours.npz",
+    "sha256": "980d4a07144cd61f59e02ce6f767be05b3e7883f2ca1fe8c20abf097a2ada964",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/cross10_anchor_nll.npz",
+    "sha256": "2485f66b6bc0cbfb2cb21d9f1741925aee284ffdb70140768f834ec6876b767d",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/official200_ours.npz",
+    "sha256": "bb91e9b321b20fdd07057b69c54fd54c9c3e9fdfb0476edf1ce7e0f83e57c54b",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-08/seed2030/official200_anchor_nll.npz",
+    "sha256": "ea994c27d04c91b1a369f45184b267ca13ce1b758a7d5870a5b93e218061b499",
+    "source": "data/results/compact_audit_v86/sub-08/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/within10_ours.npz",
+    "sha256": "51d8af7bb0898904ba81afc1ae5725efb5046c5551352d8a2d393f627a369eb2",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/within10_anchor_nll.npz",
+    "sha256": "7d5a594e6e6e6eea7d8aede4228ff523ffe32de7a394a1cf96ba6181638b6514",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/cross10_ours.npz",
+    "sha256": "a95958f519ca9f01817bdc28a36deee17966e7e473a689b0be8d0ac6cbf6e3f1",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/cross10_anchor_nll.npz",
+    "sha256": "b361d0892e0398b537a2ac80c250f00cf482f9cf530d23af7be7a32215013d25",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/official200_ours.npz",
+    "sha256": "198cb53a0f34745c86152df2138207e21dedcf8e9b072f96f66500a43de07f44",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2028/official200_anchor_nll.npz",
+    "sha256": "178dec823edb415f5918f8d6301492da024864434228684b8a6b2a1f411dcb52",
+    "source": "data/results/compact_audit_v86/sub-09/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/within10_ours.npz",
+    "sha256": "1f13d4642b3c067e233f863c3c1f2b6ed84bdfcb76aa463d0a937471e649952d",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/within10_anchor_nll.npz",
+    "sha256": "cbef891b8ce49042f84832ca0be876e7dc868eaf8a099ef43281e59fb9fb10c7",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/cross10_ours.npz",
+    "sha256": "ae42a70a953fe3cb1802a9cf940d0808b91c66a1961ceb3380d770ff7169524a",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/cross10_anchor_nll.npz",
+    "sha256": "5874ad4e8ee5b1c99e5d45efe457e4def1dde35f16ffbb50813544efc8168873",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/official200_ours.npz",
+    "sha256": "ef37526cf0c9af46694e490417c647b01d689e544cc0e44199810b431dcf1ec1",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2029/official200_anchor_nll.npz",
+    "sha256": "39d771e021c949351ac4e46fabcfafe0f35061f1e1e859f75d88992268e82f68",
+    "source": "data/results/compact_audit_v86/sub-09/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/within10_ours.npz",
+    "sha256": "a5c8161a7be99868588e861a9e4d815cb60e93e437940e3150183b469e770ebd",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/within10_anchor_nll.npz",
+    "sha256": "d97c4fcd45d71698e064e6c665f7d53ac78b9b94f965755e268c260e4517600e",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/cross10_ours.npz",
+    "sha256": "339a63c4988615620bc7498828f3f8ff68ee1214a8c94a5365b7aea63cb70b14",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/cross10_anchor_nll.npz",
+    "sha256": "78ce1a5cbf103098a80660757724721ddae860a92a27bc4a4f7beb0bf043ed29",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/official200_ours.npz",
+    "sha256": "1c44253d84a2ab020f8f626933c13bf37cdac3e5fa7ff104429009e1cad96abf",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-09/seed2030/official200_anchor_nll.npz",
+    "sha256": "94a08e7a0780e4c87b7ab59c48ab71d1663001a8e84f5d6c4c37be05d39c4ff5",
+    "source": "data/results/compact_audit_v86/sub-09/seed2030/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/within10_ours.npz",
+    "sha256": "263bf5213d284d1097297b5b6b391fee563245a231484ab36f19a29b1de0b09e",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/within10_anchor_nll.npz",
+    "sha256": "ad4c140ec566704b06e2cec6be757d5eb1f1e20b297ebf46f26b607c328d6815",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/cross10_ours.npz",
+    "sha256": "42f8bc7afffc318003a0419766b447cd2b025fc1a3987dd879a37f059cff419a",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/cross10_anchor_nll.npz",
+    "sha256": "af9271b5bce0b298cc7145c4cb13f47b9ff580292e1a7e2366312ae38d29ab8e",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/official200_ours.npz",
+    "sha256": "ba526c342dbdcdabd5f7192c2faf13dafd56a65a75eb573dc8217d546f177ec3",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2028/official200_anchor_nll.npz",
+    "sha256": "fa01deb65cca44a7570c3cee1dca9b38eead5b3703e2e35777af25c723ce3b99",
+    "source": "data/results/compact_audit_v86/sub-10/seed2028/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/within10_ours.npz",
+    "sha256": "451efc6c855c595b6cabd761646f158f426ff5fb88c56a7c208b53ed96b95b24",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/within10_anchor_nll.npz",
+    "sha256": "03371b31b7ad72e358c408a29f04468178dcdab213af82921019193ffe1ca346",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/cross10_ours.npz",
+    "sha256": "f73dfa38c94020470cb147b013e89417d0910eb71fbac4f4d61040c515c1fc76",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/cross10_anchor_nll.npz",
+    "sha256": "30a08001cc0365cdfa6358bab563a735ffe3153134e66c3a0cbdda9fab523192",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/official200_ours.npz",
+    "sha256": "ac68cbdf6a054f94e4c4d4e0bb19125881db9c99c73328457298c97f2d3bb8c1",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2029/official200_anchor_nll.npz",
+    "sha256": "6c5494f786968ec8496b17b268308592c234d7ec346aec9f5e788a7a1128f70c",
+    "source": "data/results/compact_audit_v86/sub-10/seed2029/official200_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/within10_ours.npz",
+    "sha256": "5287532012ed9773b3790b778bb1741d3fc1fc2d3a7574b05efb82deff8078f3",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/within10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/within10_anchor_nll.npz",
+    "sha256": "c2a341008c8761b58bf7466a8fc17932ead4b4b760e447b1879d38c688e705f7",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/within10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/cross10_ours.npz",
+    "sha256": "f572c0f2746a3c737af5e60adf7a5e945c440aa2c8126926d88debc8204db700",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/cross10_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/cross10_anchor_nll.npz",
+    "sha256": "6aad896f918173497b54100f804bf392bc8b8ad0de05a49b6159074f1caa9d5c",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/cross10_anchor_nll.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/official200_ours.npz",
+    "sha256": "804acc1bc4d770e7c71fdf05a9e23a2f6c46857b2b4f78f8e107b8a4c3bbc487",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/official200_compact.npz"
+  },
+  {
+    "path": "predictions/sub-10/seed2030/official200_anchor_nll.npz",
+    "sha256": "d2df53e4eeaceee116bf7d541b4fd0ca46f0dabf075af306b5b0940d3e56a46a",
+    "source": "data/results/compact_audit_v86/sub-10/seed2030/official200_anchor_nll.npz"
+  }
+]
