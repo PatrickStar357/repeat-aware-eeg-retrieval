@@ -6,7 +6,6 @@
   "gallery_order": "Original candidate order in the frozen prediction files",
   "cases": [
     {
-      "panel": "a",
       "concept": "barrette",
       "query_index": 131,
       "query_id": "train/00073_barrette/barrette_02s.jpg",
@@ -113,7 +112,6 @@
       ]
     },
     {
-      "panel": "b",
       "concept": "screw",
       "query_index": 1562,
       "query_id": "train/01231_screw/screw_03s.jpg",
@@ -221,7 +219,6 @@
       ]
     },
     {
-      "panel": "c",
       "concept": "velcro",
       "query_index": 1937,
       "query_id": "train/01566_velcro/velcro_08s.jpg",
@@ -328,7 +325,6 @@
       ]
     },
     {
-      "panel": "d",
       "concept": "nail",
       "query_index": 1151,
       "query_id": "train/00927_nail/nail_02s.jpg",
@@ -436,7 +432,6 @@
       ]
     },
     {
-      "panel": "e",
       "concept": "combination_lock",
       "query_index": 377,
       "query_id": "train/00342_combination_lock/combination_lock_08s.jpg",
@@ -544,7 +539,6 @@
       ]
     },
     {
-      "panel": "f",
       "concept": "zipper",
       "query_index": 1998,
       "query_id": "train/01653_zipper/zipper_09s.jpg",
@@ -653,9 +647,5 @@
     }
   ],
   "unselected_by_all_four_scorers": 44,
-  "image_processing": "CC0 concept icons resized with white padding; candidate cards show IDs and verified choices, not image contents",
-  "image_rights": "Only documented THINGSplus-CC0 photographs are displayed. Original stimulus IDs and hashes identify experimental records; their photographs are not redistributed.",
-  "displayed_candidate_records": 60,
-  "displayed_CC0_concept_photographs": 6,
-  "original_stimulus_photographs_displayed": 0
+  "candidate_records": 60
 }

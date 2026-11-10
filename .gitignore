@@ -6,3 +6,14 @@ venv/
 outputs/
 .DS_Store
 Thumbs.db
+
+# Publication graphics are maintained outside the numerical artifact package.
+figures/
+make_figures.py
+requirements-figures.txt
+
+# External downloads and generated preprocessing/training outputs.
+data/THINGS-EEG2/
+data/processed/
+data/results/
+data/metadata/*.sqlite*

@@ -6,7 +6,7 @@ import numpy as np
 
 def main():
     root = Path(__file__).resolve().parent
-    record = json.loads((root / "figures/source_data/figure6_gallery_cases.json").read_text(encoding="utf-8"))
+    record = json.loads((root / "artifacts/results/case_gallery_records.json").read_text(encoding="utf-8"))
     paths = {
         "NICE_global": root / "artifacts/case_comparisons/within10_NICE_global.npz",
         "ATM_global": root / "artifacts/case_comparisons/within10_ATM_global.npz",

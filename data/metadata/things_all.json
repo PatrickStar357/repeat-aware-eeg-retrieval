@@ -1,0 +1,26 @@
+[
+  {
+    "type": "file",
+    "oid": "313874a2751e6263543adec0b3fff3c9ee50bb20",
+    "size": 1837629,
+    "lfs": {
+      "oid": "80728a50b1b334ded4e21f9f501597c3e520580b16d8d02c2018550e747ae3b3",
+      "size": 1837629,
+      "pointerSize": 132
+    },
+    "xetHash": "6b205ebc94887f76473ae4ef11cddd21d9d7f7a106aac4b931954b7c1f7ff70b",
+    "path": "Image_feature/DirectT/eeg_intra-subject_baseline_EEGProjectLayer_RN50_test.pt"
+  },
+  {
+    "type": "file",
+    "oid": "22716d43f0e7e40804b0c5623d47295ceea7653b",
+    "size": 84703191,
+    "lfs": {
+      "oid": "1f8d2bcad88cf83e9620686ae89ea292f3234fdc5acf716a8f33e03ef62894f6",
+      "size": 84703191,
+      "pointerSize": 133
+    },
+    "xetHash": "79539690d8e54a9745a7a855570e2e72bcbc08631c0b76c13f944f62ec35319a",
+    "path": "Image_feature/DirectT/eeg_intra-subject_baseline_EEGProjectLayer_RN50_train.pt"
+  }
+]

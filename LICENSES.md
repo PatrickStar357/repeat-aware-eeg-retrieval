@@ -14,9 +14,5 @@ included MIT licenses. Preserve these notices with copies:
 | ATM source definitions | `data/code/upstream/ATM/LICENSE` | `49cb3a20a0c1fd35fd2955f78d0e4d0f2939c70d` |
 | SATTC source definitions | `data/code/upstream/SATTC/LICENSE` | `617cba60db52fa2e51e52f05b8f75bc13259f8ef` |
 
-The six concept photographs are from the THINGSplus-CC0 collection with their
-provenance retained under `figures/source_data/cc0/`. This does not relicense
-original THINGS stimulus photographs, which are not distributed here.
-
 Original EEG data, pretrained weights and other external assets remain subject
 to their original providers' terms. See `DATA_AVAILABILITY.md` for access routes.

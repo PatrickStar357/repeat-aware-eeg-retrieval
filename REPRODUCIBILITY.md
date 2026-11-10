@@ -1,82 +1,73 @@
-# Reproduction routes and protocol
+# Numerical reproduction and source implementation
 
-## Route 1: original frozen-output replay
+## Main matched comparison
 
-Validated with Python 3.12.14 and NumPy 2.3.5:
+Validated replay environment: Python 3.12.14 and NumPy 2.3.5.
 
 ```bash
+python -m pip install -r requirements.txt
 python verify_artifacts.py
 python reproduce.py
+python verify_cases.py
 ```
 
-`artifacts/predictions/` contains two scorers (`ours` and `anchor_nll`) for
-within10, cross10 and official200, for participants 01--10 and seeds
-2028/2029/2030. Each file contains logits and target indices. The replay computes
-Top-1, Top-5, mAP, Brier, NLL, AURC, ECE15, wrong-answer confidence and the
-three fixed coverage risks, then averages seeds within participant and
-participants within condition. The aggregate total is 66 checked metrics.
+The main replay reads 180 frozen prediction files: two scorers, three gallery
+tasks, ten participants and three seeds. It computes Top-1, Top-5, mAP, Brier,
+NLL, AURC, ECE15, wrong-answer confidence and three fixed-coverage risks.
+Seeds are averaged within participant, then participants within condition.
+All 66 checked aggregate metrics match the recorded summary with a maximum
+absolute difference of 0.0. New reports are written to `outputs/`.
 
-The recorded replay discrepancy is zero. The six fixed query ranks are also
-checked for the main pair. No training, feature extraction or model downloads
-occur in this route. New reports are written to `outputs/`.
+`artifacts/results/case_gallery_records.json` preserves six query records,
+their 60 candidates, four scorers' choices and target ranks. `verify_cases.py`
+checks 24 model choices directly against the frozen arrays, including the 44
+candidate records selected by none of the scorers. Two NICE/ATM case-comparison
+files supplement the 180 main-pair outputs.
 
-## Route 2: figure reconstruction
+This route reads saved predictions and does not run model training or download
+data. It verifies output traceability rather than independent retraining.
+
+## Original implementation and inputs
+
+`data/code/` preserves the original source layout. There are 35 original
+implementation/preparation files: 31 sources in the recorded experiment
+inventory and four additional recording/index/preprocessing sources. Selected NICE, ATM and
+SATTC definitions are unchanged and retain their original MIT notices.
+
+`data/metadata/` contains the recorded acquisition inventories for the
+non-rest EEG inputs, canonical stimulus identity metadata and the two
+DirectT intra-subject RN50 baseline feature files. It records input sizes,
+checksums, original URLs and the feature-repository revision. Inspect the
+plan, without network access or data downloads, with:
 
 ```bash
-python -m pip install -r requirements-figures.txt
-python make_figures.py
+python data/code/download_datasets.py --groups raw images features --plan-only
 ```
 
-The recorded rendering environment uses Matplotlib 3.11.2 and Pillow 13.0.0.
-English uses Arial with DejaVu Sans fallback. Chinese requires the installed
-Windows SimHei font. Font substitution can change geometry, so inspect a fresh
-export before reusing it. Delivered font, alignment and collision reports refer
-to the delivered SVG/PDF geometry; installing no optional audit helper is not
-reported as a fresh alignment pass.
+Omitting `--plan-only` starts the large external-input downloads. Keep the
+explicit `--groups raw images features`; the unchanged original downloader
+also supports a different dataset outside this submission. Here `images`
+covers canonical identity/licensing metadata, not stimulus photograph bytes.
 
-Figure 6 uses six documented CC0 concept photographs and 60 candidate-record
-cards. Its 24 model selections and ranks are checked with `python verify_cases.py`,
-including the 44 records selected by none of the models. Two additional
-NICE/ATM case-comparison output files supplement the 180 main-pair predictions.
-No original stimulus photograph is used or required for figure reconstruction.
-
-Figures 3 and 4 use every one of the ten participant means for each displayed
-method. Figure 5 uses all five displayed covariance alternatives and all ten
-participants; its final column is their mean. Fixed source values, native units,
-and exclusions are documented in `figures/plotted_data/` and the figure captions.
-
-## Route 3: original training and analysis source
-
-`data/code/` preserves the original source layout: paths defined relative to
-the original data root remain under the repository's `data/`. There are 38
-original implementation/preparation files, including the original 31 experiment
-files plus seven recording/index/source-preparation files. Selected NICE, ATM
-and SATTC source definitions are included unchanged with their MIT notices.
-
-Full training additionally requires the original indexed EEG data, preprocessing
-outputs, RN50 feature inputs, model assets and a compatible GPU environment.
-`requirements-training.txt` is a dependency list from the source imports, not
-a lockfile of the historical training environment. The raw-data route is not
-executed by `reproduce.py`. No new training or independent evaluation run is
-claimed by this artifact release.
-
-Main source entry points and their evidence roles are listed in
-`docs/EXPERIMENT_MAP.md`. Recorded configuration and source hashes remain in
-`artifacts/results/summary.json` and the provenance records.
+Full training additionally requires indexed source EEG, preprocessing outputs,
+RN50 feature inputs, trained/model assets and a compatible GPU environment.
+`requirements-training.txt` lists libraries referenced by these implementations;
+it is not a lockfile of the historical GPU training environment. Recorded
+configuration and source hashes remain in the result summaries and provenance.
+The selected upstream files supply definitions extracted by the experiment
+adapters; they are source snapshots, not standalone upstream training packages.
 
 ## Experimental units and interpretation
 
-- Ten participant-specific models; three seeds averaged within each participant.
-- Four EEG recordings per query (R4), with supplied K10/K200 galleries.
-- Concept identity is provided for the primary within10 task.
-- EEG-supervised training/calibration/evaluation concepts are disjoint.
-- The evaluation pool was inspected during development. Reported effects are
-  exploratory; the recorded paired comparisons do not remove all selection
-  effects from the 45-configuration search.
-- SATTC is an adapted label-free structural postprocessor with extra unlabeled
-  batch context, distinguished from the inductive scorers in the manuscript.
-- Single-metric alternatives and every configuration remain in the full results.
+- Ten participant-specific models, with three seeds averaged within participant.
+- Four EEG recordings per query and supplied K10/K200 candidate galleries.
+- Concept membership supplied for the primary within10 task.
+- Disjoint EEG-supervised fitting, calibration and evaluation concepts.
+- Evaluation-pool inspection during development; reported comparisons retain
+  their exploratory interpretation.
+- SATTC uses the documented adapted label-free postprocessor and additional
+  unlabeled batch context, distinct from the inductive scorers.
+- All configurations and single-metric alternatives remain in the full results.
 
-The repository supports inspection of these stated conditions and outputs. It
-does not assert EAB-level self-contained retraining, an artifact badge, or an
-independent replication certificate.
+The source-to-evidence map is in `docs/EXPERIMENT_MAP.md`. Original data access
+and external inputs are described in `DATA_AVAILABILITY.md`.
